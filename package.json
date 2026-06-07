@@ -1,6 +1,6 @@
 {
   "name": "repo-analyzer-ai",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Analyze any GitHub repository and get actionable improvements in seconds.",
   "main": "dist/bin.cjs",
   "bin": {
@@ -14,6 +14,7 @@
   "scripts": {
     "build": "node esbuild.config.js",
     "start": "node dist/bin.cjs",
+    "test": "echo \"Error: no tests configured yet.\" && exit 0",
     "prepublishOnly": "npm run build"
   },
   "engines": {
