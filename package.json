@@ -1,6 +1,6 @@
 {
   "name": "repo-analyzer-ai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Analyze any GitHub repository and get actionable improvements in seconds.",
   "main": "dist/bin.cjs",
   "bin": {
