@@ -1,0 +1,17 @@
+# Source files (not needed by consumers)
+src/
+tsconfig.json
+esbuild.config.js
+
+# Development artifacts
+*.svg
+report.html
+report.md
+.github/
+
+# Config and secrets
+.env
+.env*
+
+# Temporary files
+.repo-analyzer-temp*/

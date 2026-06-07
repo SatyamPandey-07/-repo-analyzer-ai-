@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Generated artifacts (should not be committed)
+report.html
+report.md
+health.svg
+security.svg
+docs.svg
+
+# Environment files (may contain secrets)
+.env
+.env.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temporary clone directories
+.repo-analyzer-temp*/

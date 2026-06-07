@@ -1,0 +1,58 @@
+{
+  "name": "repo-analyzer-ai",
+  "version": "0.1.0",
+  "description": "Analyze any GitHub repository and get actionable improvements in seconds.",
+  "main": "dist/bin.cjs",
+  "bin": {
+    "repo-analyzer-ai": "./dist/bin.cjs"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "start": "node dist/bin.cjs",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "repository",
+    "analyzer",
+    "health",
+    "security",
+    "cli",
+    "github",
+    "open-source",
+    "maintainability",
+    "documentation",
+    "code-quality",
+    "npm",
+    "developer-tools"
+  ],
+  "author": "Satyam Pandey <pandeysatyam1802@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SatyamPandey-07/-repo-analyzer-ai-"
+  },
+  "homepage": "https://github.com/SatyamPandey-07/-repo-analyzer-ai-#readme",
+  "bugs": {
+    "url": "https://github.com/SatyamPandey-07/-repo-analyzer-ai-/issues"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "dotenv": "^17.4.2",
+    "octokit": "^5.0.5",
+    "picocolors": "^1.1.1",
+    "simple-git": "^3.36.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.3"
+  }
+}
